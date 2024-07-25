@@ -14,9 +14,10 @@ function Banner() {
 
           <FlipClockCountdown 
             className="flip-clock"
-            to={new Date().getTime() + 24 * 3600 * 1000 + 5000} 
+            to={new Date("2024/12/19")} 
+            labels={['DNY', 'HODINY', 'MINUTY', 'SEKUNDY']}
           />
-          <p className="RegButton" ><a href='./MUNIstranka.js'>REGISTRACE</a></p>
+          <p className="RegButton" ><a href="https://www.muni.cz" target="_blank">REGISTRACE</a></p>
         </div>
       </div>
     </div>

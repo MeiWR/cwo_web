@@ -48,10 +48,10 @@
   padding-top: 80px;
   --fcc-background: #ffffff;
   --fcc-digit-color: #000;
-  --fcc-spacing: 20px;
+  --fcc-spacing: 1vw;
   --fcc-digit-block-width: 4vw;
   --fcc-digit-block-height: 6vw;
-  --fcc-digit-block-radius: 10px;
+  --fcc-digit-block-radius: 0.6vw;
   --fcc-digit-block-spacing: 4px;
   --fcc-digit-font-size: 5vw;
   --fcc-label-font-size: 1vw;

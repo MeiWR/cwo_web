@@ -1,5 +1,6 @@
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
+import MUNIstranka from './MUNIstranka.js';
 
 
 function Banner() {
@@ -16,7 +17,7 @@ function Banner() {
             className="flip-clock"
             to={new Date().getTime() + 24 * 3600 * 1000 + 5000} 
           />
-          <p className="RegButton" ><a href='./components/MUNIstranka.js'>REGISTRACE</a></p>
+          <p className="RegButton" ><a href='./MUNIstranka.js'>REGISTRACE</a></p>
         </div>
       </div>
     </div>

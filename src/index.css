@@ -103,6 +103,7 @@
 
 .RegButton a:visited {
   text-decoration: none;
+  color: #fff;
 }
 
 .RegButton a:hover {

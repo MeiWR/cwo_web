@@ -1,6 +1,114 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'century-gothic', sans-serif;
   overscroll-behavior: none;
+}
+  
+
+.BannerWrap{
+  background-color: #000;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.BannerFoto{
+  top: 5px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+.HeaderWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  --padding-left: 10%;
+  top: -95vh;
+  --max-width: 30%;
+}
+
+.HeaderMain{
+  color: white;
+  letter-spacing: -8px;
+  line-height: 1;
+  font-size: 7vw;
+  font-weight: 600;
+}
+
+.Blue{
+  background: linear-gradient(45deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flip-clock{
+  padding-top: 80px;
+  --fcc-background: #ffffff;
+  --fcc-digit-color: #000;
+  --fcc-spacing: 20px;
+  --fcc-digit-block-width: 80px;
+  --fcc-digit-block-height: 140px;
+  --fcc-digit-block-radius: 10px;
+  --fcc-digit-block-spacing: 4px;
+  --fcc-digit-font-size: 5vw;
+  --fcc-label-font-size: 16px;
+  --fcc-separator-size: 15px;
+  size: 80vw;
+  color: white;
+}
+
+.Info{
+  background-color: #222222;
+  min-height: 600px;
+  color: #fff;
+}
+
+.InfoWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+.InfoWrap h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.RegButton{
+  margin-top: 50px;
+  font-size: 3vw;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(60deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
+  border: red;
+  border-radius: 8px;
+  padding: 13px 32px;
+}
+
+.RegButton:hover{
+  cursor: pointer;
+  background: linear-gradient(-145deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
+
+}
+
+.RegButton a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.RegButton a:visited {
+  text-decoration: none;
+}
+
+.RegButton a:hover {
+  text-decoration: none;
+}
+
+.RegButton a:active {
+  text-decoration: none;
 }

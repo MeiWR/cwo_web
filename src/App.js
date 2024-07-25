@@ -1,8 +1,13 @@
+import Banner from './components/Banner.js';
+import Info from './components/Info.js';
+
+
 
 function App() {
   return (
     <div className="App">
-      CWO Hello! IDK
+      <Banner />
+      <Info />
     </div>
   );
 }

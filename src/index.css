@@ -49,14 +49,14 @@
   --fcc-background: #ffffff;
   --fcc-digit-color: #000;
   --fcc-spacing: 20px;
-  --fcc-digit-block-width: 80px;
-  --fcc-digit-block-height: 140px;
+  --fcc-digit-block-width: 4vw;
+  --fcc-digit-block-height: 6vw;
   --fcc-digit-block-radius: 10px;
   --fcc-digit-block-spacing: 4px;
   --fcc-digit-font-size: 5vw;
-  --fcc-label-font-size: 16px;
-  --fcc-separator-size: 15px;
-  size: 80vw;
+  --fcc-label-font-size: 1vw;
+  --fcc-separator-size: 1vw;
+  --size: 80vw;
   color: white;
 }
 

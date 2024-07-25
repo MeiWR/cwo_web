@@ -1,0 +1,31 @@
+{
+    "CWO": [
+        ["./gallery_imgs/1.jpg", "./thumbnails/1.jpg", ""],
+        ["./gallery_imgs/2.jpg", "./thumbnails/2.jpg", ""],
+        ["./gallery_imgs/3.jpg", "./thumbnails/3.jpg", ""],
+        ["./gallery_imgs/4.jpg", "./thumbnails/4.jpg", ""],
+        ["./gallery_imgs/5.jpg", "./thumbnails/5.jpg", ""],
+        ["./gallery_imgs/6.jpg", "./thumbnails/6.jpg", ""],
+        ["./gallery_imgs/7.jpg", "./thumbnails/7.jpg", ""],
+        ["./gallery_imgs/8.jpg", "./thumbnails/8.jpg", ""],
+        ["./gallery_imgs/9.jpg", "./thumbnails/9.jpg", ""],
+        ["./gallery_imgs/10.jpg", "./thumbnails/10.jpg", ""],
+        ["./gallery_imgs/11.jpg", "./thumbnails/11.jpg", ""],
+        ["./gallery_imgs/12.jpg", "./thumbnails/12.jpg", ""],
+        ["./gallery_imgs/13.jpg", "./thumbnails/13.jpg", ""],
+        ["./gallery_imgs/14.jpg", "./thumbnails/14.jpg", ""],
+        ["./gallery_imgs/15.jpg", "./thumbnails/15.jpg", ""],
+        ["./gallery_imgs/16.jpg", "./thumbnails/16.jpg", ""],
+        ["./gallery_imgs/17.jpg", "./thumbnails/17.jpg", ""],
+        ["./gallery_imgs/18.jpg", "./thumbnails/18.jpg", ""],
+        ["./gallery_imgs/19.jpg", "./thumbnails/19.jpg", ""],
+        ["./gallery_imgs/20.jpg", "./thumbnails/20.jpg", ""],
+        ["./gallery_imgs/21.jpg", "./thumbnails/21.jpg", ""],
+        ["./gallery_imgs/22.jpg", "./thumbnails/22.jpg", ""],
+        ["./gallery_imgs/23.jpg", "./thumbnails/23.jpg", ""],
+        ["./gallery_imgs/24.jpg", "./thumbnails/24.jpg", ""],
+        ["./gallery_imgs/25.jpg", "./thumbnails/25.jpg", ""]
+
+    ]
+
+}

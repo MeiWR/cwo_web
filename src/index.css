@@ -50,13 +50,35 @@
   --max-width: 30%;
 }
 
+@media (max-width: 1366px) {
+  .HeaderWrap{
+    top: -85vh;
+  }
+
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+    .HeaderWrap{
+      scale: 60%;
+      top: -115vh;
+    }
+  } 
+
 .HeaderMain{
-  --backdrop-filter: blur(3px) saturate(70%);
   color: white;
   letter-spacing: -8px;
   line-height: 1;
   font-size: 7vw;
   font-weight: 600;
+}
+
+@media (max-width: 1366px) {
+  .HeaderMain{
+    letter-spacing: -4px;
+    line-height: 1.2;
+    font-size: 13vw;
+  }
+
 }
 
 .Blue{
@@ -97,6 +119,25 @@
   color: white;
 }
 
+@media (max-width: 1366px) {
+  .flip-clock{
+    padding-top: 80px;
+    --fcc-background: #ffffff;
+    --fcc-digit-color: #000;
+    --fcc-spacing: 1vw;
+    --fcc-digit-block-width: 8vw;
+    --fcc-digit-block-height: 14vw;
+    --fcc-digit-block-radius: 0.6vw;
+    --fcc-digit-block-spacing: 4px;
+    --fcc-digit-font-size: 9vw;
+    --fcc-label-font-size: 2vw;
+    --fcc-separator-size: 1vw;
+    --size: 80vw;
+    color: white;
+  }
+
+}
+
 
 .RegButton{
   margin-top: 90px;
@@ -110,6 +151,13 @@
   padding: 13px 32px;
 
   
+}
+
+@media (max-width: 1366px) {
+  .RegButton{
+    font-size: 9vw;
+  }
+
 }
 
 
@@ -147,7 +195,7 @@
 
 .InfoWrap{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 3fr 2fr;
   justify-content: center;
   place-items: center;
   font-size: 1.8vw;
@@ -155,8 +203,59 @@
   font-weight: 600;
 }
 
+@media (max-width: 1366px) {
+  .InfoWrap{
+    display: flex;
+    flex-direction: column;
+    --grid-template-rows: 1fr 2fr;
+    font-size: 5vw;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .InfoWrap{
+    font-size: 3vw;
+  }
+} 
+
 .Datum{
   font-size: 2.2vw;
+}
+
+@media (max-width: 1366px) {
+  .Datum{
+    font-size: 7vw;
+  }
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .Datum{
+    font-size: 3.5vw;
+  }
+} 
+
+.Adress{
+  font-size: 1.2vw;
+  padding-bottom: 6px;
+  padding-top: 32px;
+}
+
+@media (max-width: 1366px) {
+  .Adress{
+    font-size: 4vw;
+    padding-bottom: 6px;
+    padding-top: 32px;
+  }
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .Adress{
+    font-size: 2vw;
+
+  }
 }
 
 .InfoWrap p{
@@ -169,14 +268,29 @@
   padding-bottom: 20px;
 }
 
-.Adress{
-  font-size: 1.2vw;
-  padding-bottom: 6px;
-  padding-top: 32px;
+@media (max-width: 1366px) {
+  .InfoWrap h2{
+    font-size: 9vw;
+  }
 }
+
+@media all and (device-width: 1366px) and (device-height: 1024px) and (orientation:landscape) {
+  .InfoWrap h2{
+    font-size: 5vw;
+  }
+}
+
+
 
 .InfoTextWrap{
   padding-bottom: 20vh;
+}
+
+@media (max-width: 1366px) {
+  .InfoTextWrap{
+    padding-bottom: 2vh;
+  }
+
 }
 
 .WrapMap{
@@ -203,6 +317,14 @@
   width: 64vw;
 }
 
+@media (max-width: 1366px) {
+  .leaflet-container {
+    height: 60vh;
+    width: 86vw;
+  }
+
+}
+
 .Empty{
   min-height: 600px;
   background-color: red;
@@ -223,6 +345,14 @@
   padding-bottom: 20px;
 }
 
+@media (max-width: 1366px) {
+  .Fotky h2{
+    font-size: 6vw;
+
+  }
+
+}
+
 .img-responsive{
   --width: 320px;
   width: 19.5vw;
@@ -241,51 +371,6 @@
   }
 
 }
-/*
-@media (max-width: 1146px) {
-  .img-responsive{
-    width: 320px;
-  }
-
-}
-
-@media (max-width: 906px) {
-  .img-responsive{
-    width: 280px;
-  }
-
-}
-
-@media (max-width: 800px) {
-  .img-responsive{
-    width: 280px;
-  }
-
-}
-
-
-@media (max-width: 720px) {
-  .img-responsive{
-    width: 400px;
-  }
-
-}
-
-@media (max-width: 720px) {
-  .img-responsive{
-    width: 400px;
-  }
-
-}
-
-@media (max-width: 400px) {
-  .img-responsive{
-    width: 260px;
-  }
-
-}
-*/
-
 
 .masonry-gallery-demo {
   min-height: fit-content;

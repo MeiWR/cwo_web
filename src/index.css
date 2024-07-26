@@ -188,10 +188,11 @@
 
 
 .Info{
-  background-color: #222222;
+  background: linear-gradient(45deg, #131313 0%, #323232 100%);
   min-height: 600px;
   color: #fff;
 }
+
 
 .InfoWrap{
   display: grid;
@@ -331,7 +332,8 @@
 }
 
 .Fotky{
-  background-color: #131313;
+  background: linear-gradient(-45deg, #101010 0%, #191919 100%);
+  margin-top: -1px;
   min-height: fit-content;
 }
 

@@ -1,12 +1,49 @@
 
 
-function HK() {
+export default function HK() {
+
+
+  function toggleW() {
+    var x = document.getElementById("W");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function toggleM() {
+    var x = document.getElementById("M");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function toggleT() {
+    var x = document.getElementById("T");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function toggleTD() {
+    var x = document.getElementById("TD");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
   return (
     <div className="HK">
       <div className="HK_BigWrap">
-      <div className="HK_wrap">
-
-        <h3 className="Blue">Jednotlivci - ženy:</h3>
+        <h3 className="Blue" onClick={toggleW}>Jednotlivci - ženy:</h3>
+        <div className="HK_wrap W" id="W" >
         <p>Kategorie jednotlivci ženy je určena pro ženy a dívky každého věku, avšak s minimálním možným věkem závodnice - 15 let dovršených v kalendářním roce konání daného ročníku soutěže. 
 
         Tato kategorie je dle pravidel IWF a tedy i ČSV rozdělena do hmotnostních skupin závodnic, odpovídající hmotnosti závodnice v den soutěže, a to konkrétně:</p>
@@ -38,8 +75,9 @@ function HK() {
         </div>
 
 
-        <div className="HK_wrap">
-        <h3 className="Blue">Jednotlivci - muži:</h3>
+        
+        <h3 className="Blue" onClick={toggleM}>Jednotlivci - muži:</h3>
+        <div className="HK_wrap M" id="M">
         <p>
         Kategorie jednotlivci muži je určena pro muže a chlapce každého věku, avšak s minimálním možným věkem závodníka  - 15 let dovršených v kalendářním roce konání daného ročníku soutěže. 
 
@@ -70,8 +108,9 @@ function HK() {
 
 
         </div>
-        <div className="HK_wrap">
-        <h3 className="Blue">Team Open:</h3>
+        
+        <h3 className="Blue" onClick={toggleT}>Team Open:</h3>
+        <div className="HK_wrap T" id="T">
         <p>
         Kategorie Team Open je určena pro čtyřčlenné týmy ve variabilním složení:
         </p>
@@ -93,8 +132,9 @@ function HK() {
         </p>
 
         </div>
-        <div className="HK_wrap">
-        <h3 className="Blue">Team Open - DeadWeight:</h3>
+        
+        <h3 className="Blue" onClick={toggleTD}>Team Open - DeadWeight:</h3>
+        <div className="HK_wrap TD" id="TD">
         <p>
         Kategorie Team Open - DeadWeight je určena pro jakýkoliv tým z kategorie Team Open. jehož členové se rozhodnou změřit síly navíc také v soutěži mrtvého tahu a nejen v klasickém vzpírání.
         </p>
@@ -113,5 +153,3 @@ function HK() {
     </div>
   );
 }
-
-export default HK;

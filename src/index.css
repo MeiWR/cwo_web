@@ -564,6 +564,17 @@
   padding: 13px 32px;
 }
 
+
+@media (max-width: 768px) {
+  .PravidlaButton{
+    margin-top: 40px;
+    font-size: 5vw;
+  }
+
+}
+
+
+
 .PravidlaButton:hover{
   cursor: pointer;
   background: linear-gradient(-145deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
@@ -603,6 +614,15 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .PravSelection{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+}
+
 .active{
   background: linear-gradient(45deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
   -webkit-background-clip: text;
@@ -630,6 +650,13 @@
   font-size: 2.2vw;
   --font-size: xx-large;
   transition: all 0.2s ease-in;
+}
+
+@media (max-width: 768px) {
+  .PravSelect{
+    font-size: 6vw;
+  }
+
 }
 
 .Prav{
@@ -732,11 +759,6 @@
 
 }
 
-
-
-
-
-
 .weight_list{
   margin: 20px 20px;
   align-items: center;
@@ -749,7 +771,7 @@
 }
 
 .HK_BigWrap{
-  margin-bottom: 40px;
+  margin: 40px 40px;
 }
 
 
@@ -762,7 +784,26 @@
 .HK h3{
   font-size: x-large;
   margin: 10px 10px;
+  text-align: center;
 }
+
+.W{
+  display: none;
+}
+
+.M{
+  display: none;
+}
+
+.T{
+  display: none;
+}
+
+.TD{
+  display: none;
+}
+
+
 
 
 

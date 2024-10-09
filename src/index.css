@@ -5,6 +5,17 @@
   overscroll-behavior: none;
 }
 
+p{
+  font-size: large;
+}
+
+@media (max-width: 768px) {
+  p{
+    font-size: medium;
+  }
+
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 4px;
@@ -317,6 +328,7 @@
 .leaflet-container {
   height: 60vh;
   width: 64vw;
+  touch-action: none;
 }
 
 @media (max-width: 1366px) {
@@ -328,6 +340,7 @@
 }
 
 .Empty{
+  display: none;
   min-height: 600px;
   background-color: purple;
 }
@@ -449,8 +462,12 @@
 }
 
 .TimelineAll{
-  min-height: 600px;
+  min-height: fit-content;
   background-color: #fff;
+}
+
+.TimelineWrap{
+padding-bottom: 50px;
 }
 
 .TimelineAll h2{
@@ -472,6 +489,7 @@
 }
 
 .Harmonogram{
+  display: none;
   min-height: 600px;
   background-color: #131313;
 }
@@ -487,6 +505,7 @@
 }
 
 .StartList{
+  display: none;
   min-height: 600px;
   background-color: #131313;
 }
@@ -502,34 +521,33 @@
 }
 
 .Charakterizace{
-  min-height: 600px;
-  background-color: #131313;
-  color:#fff
-}
-
-.Charakterizace h2{
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3vw;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  min-height: fit-content;
+  background-color: #fff;
+  color:#131313;
 }
 
 .Charakterizace p{
-  max-width: 60%;
-  display:grid;
-  margin-left: 15%;
-  align-items: center;
-  justify-content: center;
-
+  font-weight: 600;
 }
 
-.Charakterizace{
-  min-height: 600px;
-  background-color: #131313;
-  color:#fff
+
+
+.Char_Wrap{
+max-width: 50vw;
+display:flex;
+margin:0 auto;
+align-items: center;
+align-self: center;
+flex-direction: column;
+font-weight: 100;
+margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .Char_Wrap{
+    max-width: 80vw;;
+  }
+
 }
 
 .Charakterizace h2{
@@ -542,18 +560,30 @@
   padding-bottom: 20px;
 }
 
-.Pravidla{
+@media (max-width: 768px) {
+  .Charakterizace h2{
+    font-size: 9vw;
+  }
 
+}
+
+.Pravidla{
   max-width: 100vw;
   height: fit-content;
   background-color: #131313;
-  color:#fff
+  color:#fff;
+}
+
+.PravidlaWrap{
+  padding-top: 50px;
+  padding-bottom: 30px;;
 }
 
 .PravidlaButton{
   
   max-width: max-content;
-  margin-top: 90px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   font-size: 2vw;
   color: #fff;
   font-weight: 600;
@@ -664,6 +694,7 @@
     display: flex;  
     justify-content: center;
     flex-direction: column;
+    gap: -3vw;
 }
 
 
@@ -728,6 +759,18 @@
   margin-bottom: 50px;
 }
 
+@media (max-width: 768px) {
+  .igOsoba{
+    font-size: medium;
+  }
+  .kontaktOsoba{
+    font-size: medium;
+
+  }
+
+}
+
+
 
 
 .Kontakt h2{
@@ -738,6 +781,15 @@
   font-size: 3vw;
   padding-top: 60px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .Kontakt h2{
+
+    font-size: 8vw;
+
+  }
+
 }
 
 .HK{

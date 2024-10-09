@@ -10,6 +10,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 export default function BasicTimeline() {
   return (
     <div className='TimelineAll'>
+      <div className='TimelineWrap'>
       <h2>Timeline</h2>
       
       <Timeline >
@@ -53,6 +54,7 @@ export default function BasicTimeline() {
         <TimelineContent>Termín konání soutěže</TimelineContent>
       </TimelineItem>
     </Timeline>
+    </div>
     </div>
   );
 }

@@ -18,6 +18,7 @@ function Pravidla() {
 
   return (
     <div className="Pravidla">
+      <div className="PravidlaWrap">
       <div className="PravSelection">
         <p className={`PravSelect ${PravidlaSwitch === 'Pravidla'? 'active' : ''}`} onClick={()=>setPravidlaSwitch("Pravidla")}>Pravidla a soutěžní řád</p>
         <p className={`PravSelect ${PravidlaSwitch === 'HK'? 'active' : ''}`} onClick={()=>setPravidlaSwitch("HK")}>Soutěžní kategorie</p>
@@ -27,7 +28,7 @@ function Pravidla() {
                 {PravidlaSwitch==="HK" && <HK />}
             </div>
       
-      
+      </div>
     </div>
   );
 }

@@ -787,6 +787,12 @@
   text-align: center;
 }
 
+.HK h3{
+  cursor: pointer;
+  transition: all 1000ms linear;
+ 
+}
+
 .W{
   display: none;
 }

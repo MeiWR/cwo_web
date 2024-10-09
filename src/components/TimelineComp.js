@@ -11,7 +11,7 @@ export default function BasicTimeline() {
   return (
     <div className='TimelineAll'>
       <div className='TimelineWrap'>
-      <h2>Timeline</h2>
+      <h2 className='Blue'>Timeline</h2>
       
       <Timeline >
       <TimelineItem>

@@ -5,6 +5,7 @@
   overscroll-behavior: none;
 }
 
+
 p{
   font-size: large;
 }
@@ -480,8 +481,21 @@ padding-bottom: 50px;
   padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .TimelineAll h2{
+
+    font-size: 8vw;
+
+  }
+
+}
+
 .css-1qp26ha-MuiTypography-root-MuiTimelineOppositeContent-root{
   color: red;
+}
+
+.MuiTimelineDot-root {
+  background: linear-gradient(45deg, rgba(8,96,130,1) 0%, rgba(0,194,255,1) 100%);
 }
 
 .MuiTimeline-root{
